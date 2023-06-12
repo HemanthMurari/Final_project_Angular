@@ -6,23 +6,42 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmpDataService {  
-  private employeesUrl = 'http://localhost:4500/employee'; 
+  constructor(private http: HttpClient) { }
 
-constructor(private http: HttpClient) { }
-
-getEmployees(): Observable<any[]> {
-  return this.http.get<any[]>(this.employeesUrl);
+  getData() {
+  return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data.json');
 }
-  // id="19000445"
+getdetails(id:number){
+  return this.http.get("https://temp-80aee-default-rtdb.firebaseio.com/data.json/"+id)
+}
+}
 
-  // constructor(private http:HttpClient) { }
 
-  // getData(){
-  //   return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data.json/'+this.id);
-  // }
 
-  // getuser(){
-  //   return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data.json');
+
+//   private employeesUrl = 'http://localhost:4500/employee'; 
+
+// constructor(private http: HttpClient) { }
+
+// getEmployees(): Observable<any[]> {
+//   return this.http.get<any[]>(this.employeesUrl);
+// }
+
+
+
+
+
+//   constructor(private http:HttpClient) { }
+
+//   getData(id:any){
+//     return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data/2/Employee%20ID.json'+id);
+//   }
+
+//   getuser(){
+//     return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data/2/Employee%20ID.json');
     
-  // }
-}
+//   }
+//   getEmployeeById(employeeId: any) {
+//     return this.http.get<any>('https://temp-80aee-default-rtdb.firebaseio.com/data/2/Employee%20ID.json' + employeeId);
+//   }
+// }

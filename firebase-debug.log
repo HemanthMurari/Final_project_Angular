@@ -1,0 +1,46 @@
+[debug] [2023-06-12T08:19:47.040Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T08:19:47.048Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nagahemanth.allagadd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-06-12T08:19:47.050Z] CLI Version:   12.3.1
+[debug] [2023-06-12T08:19:47.052Z] Platform:      win32
+[debug] [2023-06-12T08:19:47.053Z] Node Version:  v18.15.0
+[debug] [2023-06-12T08:19:47.057Z] Time:          Mon Jun 12 2023 13:49:47 GMT+0530 (India Standard Time)
+[debug] [2023-06-12T08:19:47.058Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T08:19:47.070Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=856810655&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-06-12T08:19:48.306Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-06-12T08:19:48.308Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-06-12T08:20:01.704Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-06-12T08:20:01.706Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-06-12T08:20:02.018Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2023-06-12T08:20:02.019Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as nagamurari03@gmail.com 
+[debug] [2023-06-12T08:20:12.188Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\nagahemanth.allagadd\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-06-12T08:20:29.978Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T08:20:29.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nagahemanth.allagadd\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-06-12T08:20:29.983Z] CLI Version:   12.3.1
+[debug] [2023-06-12T08:20:29.984Z] Platform:      win32
+[debug] [2023-06-12T08:20:29.984Z] Node Version:  v18.15.0
+[debug] [2023-06-12T08:20:29.987Z] Time:          Mon Jun 12 2023 13:50:29 GMT+0530 (India Standard Time)
+[debug] [2023-06-12T08:20:29.987Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as nagamurari03@gmail.com
+[debug] [2023-06-12T08:20:40.149Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\nagahemanth.allagadd\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
